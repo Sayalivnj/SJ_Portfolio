@@ -1571,3 +1571,7 @@ body.dark-theme{
   box-shadow: 2px 2px 12px hsla(0, 0%, 0%, .1);
 }
 
+.projects__description{
+  color: var(--text-color);
+
+}
