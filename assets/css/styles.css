@@ -713,10 +713,6 @@ body.dark-theme{
   margin-bottom: .75rem;
 }
 
-.projects__description{
-  color: var(--text-color);
-}
-
 .projects__button{
   position: absolute;
   right: 1rem;
@@ -735,6 +731,11 @@ body.dark-theme{
   font-weight: var(--text-color);
   margin-bottom: .75rem;
   padding-left: 1.75rem;
+}
+
+.projects__description{
+  color: var(--text-color);
+
 }
 
 .projects__subtitle::after{
@@ -1574,5 +1575,4 @@ body.dark-theme{
 .slides{
   box-shadow: 2px 2px 12px hsla(0, 0%, 0%, .1);
 }
-
 
