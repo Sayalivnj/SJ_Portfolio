@@ -76,6 +76,8 @@ h1, h2, h3, h4 {
   font-weight: var(--font-bold);
 }
 
+
+
 ul {
   list-style: none;
 }
@@ -301,7 +303,7 @@ body.dark-theme{
     text-align: center;
     backdrop-filter: blur(8px);
     transition: top .4s;
-    padding-bottom: 3rem;;
+    padding-bottom: 3rem;
   }
 }
 
@@ -1285,7 +1287,7 @@ body.dark-theme{
 
   .home__description{
     position: relative;
-    font-size: var(--h2-font-size);
+    font-size: var(--h3-font-size);
     margin-bottom: 5.5rem;
     padding-left: 3rem;
   }
@@ -1408,7 +1410,7 @@ body.dark-theme{
   }
 
   .about__description{
-    font-size: var(--h3-font-size);
+    font-size: var(--normal-font-size);
     margin-bottom: 2rem;
   }
 
@@ -1421,8 +1423,11 @@ body.dark-theme{
 
   .about__list{
     margin-bottom: 5rem;
-    font-size: var(--h3-font-size);
+    font-size: var(--normal-font-size);
+
   }
+
+  
 
   .about__buttons{
     justify-content: initial;
@@ -1575,4 +1580,5 @@ body.dark-theme{
 .slides{
   box-shadow: 2px 2px 12px hsla(0, 0%, 0%, .1);
 }
+
 
