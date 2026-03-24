@@ -471,14 +471,7 @@ body.dark-theme{
 
 
 .home__social{
-  height: max-content;
-  position: absolute;
-  left:-3rem;
-  top:0;
-  bottom:0;
-  margin: auto 0;
-  display: grid;
-  row-gap: 1rem;
+  display: none;
 }
 
 .home__social-link{
@@ -1345,10 +1338,17 @@ body.dark-theme{
     rotate: 30deg;
   }
 
-  .home__social{
+  .home__social {
+    display: grid;
+    position: absolute;
     left: initial;
     right: -6rem;
-  }
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    height: max-content;
+    row-gap: 1rem;
+  }}
 
   .home__social-link{
     font-size: 1.5rem;
