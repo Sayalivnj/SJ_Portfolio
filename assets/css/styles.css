@@ -61,8 +61,6 @@
 
 html {
   scroll-behavior: smooth;
-	 overflow-x: hidden;
-  max-width: 100%;
 }
 
 body {
@@ -70,9 +68,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: background-color .4s;
-  overflow-x: hidden;   
-  max-width: 100%;      
+  transition: background-color .4s; /* For dark theme */
 }
 
 h1, h2, h3, h4 {
@@ -179,7 +175,6 @@ body.dark-theme{
 .container {
   max-width: 1120px;  /*check this later*/
   margin-inline: 1.5rem;
-  width: 100%; 
 }
 
 .grid {
@@ -293,6 +288,8 @@ body.dark-theme{
   font-size: 1.25rem;
   cursor: pointer;
 }
+
+
 
 
 /* Navigation for mobile devices */
@@ -413,7 +410,7 @@ body.dark-theme{
 
 /*=============== HOME ===============*/
 .home__container{
-  padding-top: 2rem;
+  padding-top: 2 rem;
 }
 
 .home__name{
@@ -424,7 +421,6 @@ body.dark-theme{
 .home__perfil{
   position:relative;
   justify-self: center;
-	
 }
 
 .home__image{
@@ -467,11 +463,9 @@ body.dark-theme{
 
 }
 
-
-
-.home__perfil .geometric-box {
+.home__perfil .geometric-box{
   top: 2.5rem;
-  left: -.7rem;   
+  left: -.7 rem;
   z-index: 10;
 }
 
@@ -485,11 +479,7 @@ body.dark-theme{
   margin: auto 0;
   display: grid;
   row-gap: 1rem;
-  
 }
-
-
-
 
 .home__social-link{
   background-color: var(--black-color-light);
@@ -1358,7 +1348,6 @@ body.dark-theme{
   .home__social{
     left: initial;
     right: -6rem;
-	visibility: visible;
   }
 
   .home__social-link{
@@ -1592,3 +1581,5 @@ body.dark-theme{
 .slides{
   box-shadow: 2px 2px 12px hsla(0, 0%, 0%, .1);
 }
+
+
