@@ -424,7 +424,7 @@ body.dark-theme{
 .home__perfil{
   position:relative;
   justify-self: center;
-	overflow: hidden;
+	
 }
 
 .home__image{
@@ -485,7 +485,7 @@ body.dark-theme{
   margin: auto 0;
   display: grid;
   row-gap: 1rem;
-  visibility: hidden;
+  
 }
 
 
@@ -1592,5 +1592,3 @@ body.dark-theme{
 .slides{
   box-shadow: 2px 2px 12px hsla(0, 0%, 0%, .1);
 }
-
-
