@@ -290,6 +290,16 @@ body.dark-theme{
 }
 
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1120px;
+  width: 100%;           /* add this */
+  margin-inline: 1.5rem;
+}
 
 
 /* Navigation for mobile devices */
@@ -463,6 +473,8 @@ body.dark-theme{
 
 }
 
+
+
 .home__perfil .geometric-box{
   top: 2.5rem;
   left: -.7 rem;
@@ -480,6 +492,8 @@ body.dark-theme{
   display: grid;
   row-gap: 1rem;
 }
+
+
 
 .home__social-link{
   background-color: var(--black-color-light);
