@@ -61,6 +61,8 @@
 
 html {
   scroll-behavior: smooth;
+	 overflow-x: hidden;
+  max-width: 100%;
 }
 
 body {
@@ -177,6 +179,7 @@ body.dark-theme{
 .container {
   max-width: 1120px;  /*check this later*/
   margin-inline: 1.5rem;
+  width: 100%; 
 }
 
 .grid {
@@ -289,18 +292,6 @@ body.dark-theme{
 .nav__toggle {
   font-size: 1.25rem;
   cursor: pointer;
-}
-
-
-html, body {
-  overflow-x: hidden;
-  max-width: 100%;
-}
-
-.container {
-  max-width: 1120px;
-  width: 100%;           /* add this */
-  margin-inline: 1.5rem;
 }
 
 
@@ -494,7 +485,9 @@ html, body {
   margin: auto 0;
   display: grid;
   row-gap: 1rem;
+  visibility: hidden;
 }
+
 
 
 
@@ -1365,6 +1358,7 @@ html, body {
   .home__social{
     left: initial;
     right: -6rem;
+	visibility: visible;
   }
 
   .home__social-link{
