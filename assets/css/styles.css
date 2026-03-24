@@ -68,7 +68,9 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: background-color .4s; /* For dark theme */
+  transition: background-color .4s;
+  overflow-x: hidden;   
+  max-width: 100%;      
 }
 
 h1, h2, h3, h4 {
@@ -420,7 +422,7 @@ html, body {
 
 /*=============== HOME ===============*/
 .home__container{
-  padding-top: 2 rem;
+  padding-top: 2rem;
 }
 
 .home__name{
@@ -431,6 +433,7 @@ html, body {
 .home__perfil{
   position:relative;
   justify-self: center;
+	overflow: hidden;
 }
 
 .home__image{
@@ -475,9 +478,9 @@ html, body {
 
 
 
-.home__perfil .geometric-box{
+.home__perfil .geometric-box {
   top: 2.5rem;
-  left: -.7 rem;
+  left: -.7rem;   
   z-index: 10;
 }
 
